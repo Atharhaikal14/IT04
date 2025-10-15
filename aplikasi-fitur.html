@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modul Aplikasi - PT. 84 Abadi</title>
+    <meta name="description" content="Detail fungsionalitas: Dashboard Proyek, Manajemen Realisasi Anggaran, dan Laporan & Dokumen Terpusat.">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style-custom.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- NAVIGASI UTAMA -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top shadow" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">
+                <i class="fas fa-building me-2 text-custom-secondary"></i> PT. 84 ABADI
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Beranda</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="aplikasi-fitur.html">Aplikasi</a></li>
+                    <li class="nav-item"><a class="nav-link" href="metode-prototyping.html">Prototyping</a></li>
+                    <li class="nav-item"><a class="nav-link" href="galeri-demo.html">Galeri</a></li>
+                    <li class="nav-item"><a class="btn btn-custom-secondary ms-lg-3" href="kontak-feedback.html">Kontak</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- JUDUL HALAMAN STATIS -->
+    <section class="bg-primary-custom text-white pt-5 section-padding-top">
+        <div class="container text-center py-4">
+            <h1 class="display-5 fw-bold mb-0">Detail Modul Aplikasi & Fungsionalitas</h1>
+        </div>
+    </section>
+
+    <!-- BREADCRUMB -->
+    <div class="breadcrumb-container">
+        <div class="container">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb mb-0">
+                    <li class="breadcrumb-item"><a href="index.html" class="text-decoration-none text-muted">Beranda</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Aplikasi & Fitur</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+
+    <!-- DETAIL MODUL -->
+    <section class="page-section">
+        <div class="container">
+            <h2 class="text-center mb-5">Tiga Pilar Kontrol Proyek</h2>
+            
+            <!-- MODUL 1: DASHBOARD PROYEK -->
+            <div class="row featurette align-items-center mb-5 pb-5">
+                <div class="col-md-7">
+                    <i class="fas fa-chart-bar feature-icon"></i>
+                    <h3 class="featurette-heading text-primary-custom">Dashboard Proyek: Visualisasi Kritis</h3>
+                    <p class="lead text-muted">Menyediakan antarmuka tunggal untuk monitor **Kurva S** (*Gantt Chart*), **Progress Persentase**, dan **Status Keuangan** saat ini. Dashboard dirancang minimalis dan fokus data untuk pengambilan keputusan yang cepat dan tepat.</p>
+                </div>
+                <div class="col-md-5">
+                    <img src="https://via.placeholder.com/500x300?text=Dashboard+Kurva+S+dan+KPI" class="img-fluid rounded shadow-lg" alt="Dashboard Aplikasi">
+                </div>
+            </div>
+            
+            <hr class="featurette-divider">
+            
+            <!-- MODUL 2: MANAJEMEN REALISASI ANGGARAN -->
+            <div class="row featurette align-items-center mb-5 py-5">
+                <div class="col-md-7 order-md-2">
+                    <i class="fas fa-money-check-alt feature-icon"></i>
+                    <h3 class="featurette-heading text-primary-custom">Manajemen Realisasi Anggaran (RAB vs Aktual)</h3>
+                    <p class="lead text-muted">Fitur kunci untuk memasukkan **Form Input Harian/Mingguan** pengeluaran di lapangan. Sistem secara otomatis membandingkan dengan **Rencana Anggaran Biaya (RAB)**, menampilkan *varian* biaya secara *real-time* untuk mencegah pembengkakan.</p>
+                </div>
+                <div class="col-md-5 order-md-1">
+                    <img src="https://via.placeholder.com/500x300?text=Modul+Budget+Control" class="img-fluid rounded shadow-lg" alt="Modul Anggaran">
+                </div>
+            </div>
+            
+            <hr class="featurette-divider">
+            
+            <!-- MODUL 3: LAPORAN & DOKUMEN -->
+            <div class="row featurette align-items-center mb-5 py-5">
+                <div class="col-md-7">
+                    <i class="fas fa-folder-open feature-icon"></i>
+                    <h3 class="featurette-heading text-primary-custom">Laporan & Dokumen (Repositori Terpusat)</h3>
+                    <p class="lead text-muted">Menyediakan **Repositori Dokumen Terpusat** yang aman. Fitur unggulan: **Upload Foto Lapangan dengan Geo-tagging** dan *timestamp* untuk akuntabilitas lokasi, serta alur *approval* digital yang efisien.</p>
+                </div>
+                <div class="col-md-5">
+                    <img src="https://via.placeholder.com/500x300?text=Repositori+Dokumen" class="img-fluid rounded shadow-lg" alt="Modul Laporan Mobile">
+                </div>
+            </div>
+
+            <div class="text-center mt-5">
+                <a href="galeri-demo.html" class="btn btn-custom-secondary btn-lg">Lihat Tampilan Aplikasi <i class="fas fa-chevron-right ms-2"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="footer-copy" class="footer text-center">
+        <!-- Konten Footer Sama seperti index.html -->
+    </footer>
+
+    <!-- Script JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script-custom.js"></script>
+</body>
+</html>
